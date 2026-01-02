@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-2</title>
+</head>
+<body>
+    <section>
+        <h1>Events</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Vanue</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>9 am - 10 am</td>
+                    <td>Rajbhasha Workshop</td>
+                    <td>Hira Hall</td>
+                </tr>
+                <tr>
+                    <td>5 pm - 6 pm</td>
+                    <td>Swacchata Walk</td>
+                    <td>Main ground</td>
+                </tr>
+                <tr>
+                    <td>7 pm - 8 pm</td>
+                    <td>Fair</td>
+                    <td>Front of main building</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <section>
+        <h1>Registration Form</h1>
+        <br>
+        <h2>Registration Form</h2>
+        <form action="/signup" method="post">
+            <label for="Name">Name-</label>
+            <input type="text" name="Name" id="Name" required >
+            <br>
+            <label for="Email">Email-</label>
+            <input type="email" name="Email" id="Email" required>
+            <br>
+            <label for="Mobile_No.">Mobile No.-</label>
+            <input type="number" name="Mobile_No." id="Mobile_No" minlength="10" maxlength="10" required>
+            <br>
+            <label for="Date">Date-</label>
+            <input type="date" name="Date" id="Date">
+            <br>
+            <label for="Gender">Gender-
+                <input type="radio" name="Gender" id="M" >Male
+                <input type="radio" name="Gender" id="F" >Female
+                <input type="radio" name="Gender" id="O">Others
+            </label>
+            <br>
+            <label>Competition-</label><br>
+            <input type="checkbox" id="Essay" name="workshop" value="Essay">
+            <label for="Essay">Essay Writing</label>
+            <br>
+
+            <input type="checkbox" id="Poster" name="workshop" value="Poster">
+            <label for="Poster">Poster Designing</label>
+            <br>
+            <input type="checkbox" id="Debate" name="workshop" value="Debate">
+            <label for="Debate">Debate</label>
+            <br>
+            <label for="Comments">Comments-</label>
+            <br>
+            <textarea name="Comments" id="Comments"></textarea>
+            <br>
+            <button type="submit">Submit</button>
+
+        </form>
+    </section>
+    
+</body>
+</html>
