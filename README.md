@@ -5,6 +5,9 @@ Attempting the 30 days of code challenge. Hope I stay consistent
 Name : John Prince,
 Roll no : 25118046,
 Branch : IT
+
+DAY 1
+
 ![Image](https://github.com/user-attachments/assets/3c8c976b-08f8-4b47-88a3-8f6b339f7a4e)
 ![Image](https://github.com/user-attachments/assets/3077ba03-f051-4ddd-81c0-bfe6535fd2e4)
 ![Image](https://github.com/user-attachments/assets/2c0be0a0-e91b-4580-b8f8-c58bbcfa636c)
@@ -120,3 +123,7 @@ about.html
 
 </body>
 </html>
+
+DAY 2
+
+![Image](https://github.com/user-attachments/assets/3fcc9d2d-328e-4b3f-b52a-67627d26e61a)
